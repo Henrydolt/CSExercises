@@ -23,11 +23,11 @@ namespace CSExercises
                     c = x - a * 100 - b * 10;
                     if (x < (a * a * a + b * b * b + c * c * c) || x > (a * a * a + b * b * b + c * c * c))
                     {
-                        Console.WriteLine(1);
+                        Console.WriteLine("your number is not a Armstrong number");
                     }
                     else
                     {
-                        Console.WriteLine(2);
+                        Console.WriteLine("your number is a Armstrong number");
                     }
                 }
                 else
