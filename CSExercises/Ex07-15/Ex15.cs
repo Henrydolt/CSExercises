@@ -32,7 +32,7 @@ namespace CSExercises
                 }
                 else
                 {
-                    Console.WriteLine("your number is not a three-digit integer number");
+                    Console.WriteLine("your number isn't a three-digit integer number");
                 }
             }
             catch
