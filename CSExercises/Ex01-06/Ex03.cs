@@ -10,7 +10,18 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.Write("Please input a double precision number:");
+            double number;
+            try
+            {
+                number = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("the square of your number is: " + number * number);
+            }
+            catch
+            {
+                number = 0;
+                Console.WriteLine("your number is wrong");
+            }
         }
     }
 }
