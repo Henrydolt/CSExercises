@@ -14,7 +14,7 @@ namespace CSExercises
             double number;
             try
             {
-                number = Convert.ToInt32(Console.ReadLine());
+                number = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("the square of your number is: " + Math.Sqrt(number));
             }
             catch

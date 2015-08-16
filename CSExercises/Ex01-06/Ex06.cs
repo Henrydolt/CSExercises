@@ -15,7 +15,8 @@ namespace CSExercises
             try
             {
                 number = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("the square root of your number is: {0}",Math.Sqrt(number));
+                Console.WriteLine("the square root of your number is: {0}", Math.Sqrt(number));
+                
             }
             catch
             {

@@ -20,6 +20,21 @@ namespace CSExercises
                 b = Convert.ToDouble(Console.ReadLine());
                 Console.Write("Please input the length of c:");
                 c = Convert.ToDouble(Console.ReadLine());
+                if ((a + b > c) && (a + c > b) && (b + c > a))
+                {
+                    s = (a + b + c) / 2;
+                    AREA = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+                    Console.WriteLine("the triangle's area is :{0}", AREA);
+                }
+                else
+                {
+                    a = 0;
+                    b = 0;
+                    c = 0;
+                    s = 0;
+                    AREA = 0;
+                    Console.WriteLine("your input is wrong");
+                }
             }
             catch
             {
@@ -30,21 +45,7 @@ namespace CSExercises
                 AREA = 0;
                 Console.WriteLine("your input is wrong");
             }
-            if((a + b > c) && (a + c > b) && (b + c > a))
-            {
-                s = (a + b + c) / 2;
-                AREA = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
-                Console.WriteLine("the triangle's area is :{0}", AREA);
-            }
-            else
-            {
-                a = 0;
-                b = 0;
-                c = 0;
-                s = 0;
-                AREA = 0;
-                Console.WriteLine("your input is wrong");
-            }
+            
             
         }
     }

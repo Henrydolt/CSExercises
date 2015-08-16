@@ -21,7 +21,7 @@ namespace CSExercises
                     a = x / 100;
                     b = (x - a * 100) / 10;
                     c = x - a * 100 - b * 10;
-                    if (x < (a * a * a + b * b * b + c * c * c) || x > (a * a * a + b * b * b + c * c * c))
+                    if (x != a * a * a + b * b * b + c * c * c)
                     {
                         Console.WriteLine("your number is not a Armstrong number");
                     }

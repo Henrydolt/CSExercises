@@ -34,7 +34,7 @@ namespace CSExercises
                 x2 = 0;
                 y2 = 0;
                 D = 0;
-                Console.WriteLine("your temperature is wrong");
+                Console.WriteLine("your input is wrong");
             }
         }
     }
